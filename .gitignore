@@ -1,0 +1,10 @@
+local.properties
+.idea/
+build/
+*.iml
+/*/build/
+.gradle/
+.signing/
+.Trashes
+ehthumbs.db
+Thumbs.db

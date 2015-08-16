@@ -1,0 +1,460 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+
+    tools:context="com.exitpoint.kkakkung.sample2"
+    android:background="#ffeefafb">
+
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/search_icon"
+            android:scaleType="fitEnd" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:background="@drawable/search_input" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView20"
+            android:background="@drawable/search_end" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView2"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layout_friendslistpage1"
+                android:orientation="vertical"
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_friendslistpage1_1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/layout11" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView4"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView5"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="5dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView2"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/layout22">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView2"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView3"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="5dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView6"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView7"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="5dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView3"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_friendslistpage1_2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView8"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView9"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="5dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView4"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView10"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView11"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="5dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView5"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView12"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView13"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="5dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView6"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_friendslistpage1_3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView14"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView15"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="5dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView7"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView16"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView17"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="5dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView8"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView18"
+                                android:src="@drawable/user_plus" />
+
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add Friend"
+                            android:id="@+id/textView9"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=".   .   ."
+            android:id="@+id/textView10" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/layout_bottom"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:background="@drawable/bg_bottom">
+
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/button20"
+                android:background="@drawable/icon_tmp" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/button21"
+                android:background="@drawable/icon_tmp" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/button22"
+                android:background="@drawable/icon_tmp"/>
+
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/button23"
+                android:background="@drawable/icon_tmp" />
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/button24"
+                android:background="@drawable/icon_tmp" />
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/button25"
+                android:background="@drawable/icon_tmp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,259 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    tools:context="com.exitpoint.kkakkung.sample3"
+    android:background="#ffeefafb">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/search_icon"
+            android:layout_marginRight="0dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:background="@drawable/search_input" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView20"
+            android:background="@drawable/search_end" />
+    </LinearLayout>
+
+    <!--여기까지 서치 영역-->
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView2"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/linear1">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/layout11"
+                        android:gravity="left"
+                        android:layout_gravity="left">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView4"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView5"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="10dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView2"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:layout_gravity="left">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView7"
+                                android:src="@drawable/user_default" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView6"
+                                android:src="@drawable/user_new"
+                                android:layout_gravity="right|top"
+                                android:layout_margin="10dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView3"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/layout22"
+                        android:layout_gravity="left">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="left">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/ButtonPlus"
+                                android:background="@drawable/user_plus" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="김대엽"
+                            android:id="@+id/textView"
+                            android:gravity="center|center_vertical" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/linear2">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/linear3">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/radioButton" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/bg_bottom">
+
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/button20"
+                android:background="@drawable/icon_tmp" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/button21"
+                android:background="@drawable/icon_tmp" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/button22"
+                android:background="@drawable/icon_tmp"/>
+
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/button23"
+                android:background="@drawable/icon_tmp" />
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/button24"
+                android:background="@drawable/icon_tmp" />
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/button25"
+                android:background="@drawable/icon_tmp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
